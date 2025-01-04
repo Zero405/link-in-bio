@@ -23,6 +23,22 @@ a {
   color: #FFFFFF;
 }
 
+.image-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-row {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.social-icons-row {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .avatar-image { 
   width: 128px;
   height: 128px;
@@ -38,4 +54,12 @@ a {
 
 .certification {
   background-color: #3B3F46;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.link-text {
+  text-align: center;
+  flex-grow: 1;
 }
