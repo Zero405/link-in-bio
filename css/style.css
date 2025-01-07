@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -73,6 +78,10 @@ ul {
   padding: 5px;
   padding-right: 35px;
   box-shadow: 4px 4px 10px 0px #F5D800;
+}
+
+.certification:hover {
+  background-color: #F5D800;
 }
 
 .link-text {
