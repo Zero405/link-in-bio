@@ -18,7 +18,7 @@ body {
 main {
   max-width: 640px;
   margin: auto;
-  background-color: #3B3F46;
+  background-color: #1E2328;
 }
 
 a {
@@ -37,6 +37,9 @@ ul {
   padding: 0;
 }
 
+h3 {
+  margin: 0;
+}
 .image-row {
   margin-bottom: 20px;
   text-align: center;
@@ -83,9 +86,18 @@ ul {
 
 .certification:hover {
   background-color: #F5D800;
+  color: #000000;
 }
 
 .link-text {
   text-align: center;
   flex-grow: 1;
+}
+
+.project {
+  display: flex;
+}
+
+.icon-dot {
+  margin-right: 10px;
 }
